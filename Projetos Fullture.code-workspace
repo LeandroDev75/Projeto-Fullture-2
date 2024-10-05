@@ -1,0 +1,16 @@
+{
+  "folders": [
+	{
+		"path": "../Projetos Fullture"
+	},
+	{
+		"path": "../Projetos Full"
+	},
+	{
+		"path": "."
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "Projeto Fullture 2"
+  }
+}

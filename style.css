@@ -1,0 +1,256 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  width: 100%;
+  max-width: 1390px;
+  margin: auto;
+}
+
+.conteiner2-header {
+  background-image: url("./Imagens/spidermanheader.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 780px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 960px) {
+  .conteiner2-header {
+    background-image: url(./Imagens/spidermanheader_mobile.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 1069px;
+    background-position-x: right;
+    background-position-y: center;
+  }
+  main .text-catalogo-main {
+    margin-right: auto;
+  }
+}
+
+.content1-header {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  padding-top: 40px;
+  padding-left: 20px;
+}
+
+@media (max-width: 960px) {
+  .content1-header {
+    flex-direction: column;
+  }
+}
+
+.conteiner2-itens {
+  font-size: 26px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+}
+@media (max-width: 960px) {
+  .conteiner2-itens {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 960px) {
+  .content-itens-header {
+    display: flex;
+    gap: 50px;
+  }
+}
+
+.conteiner2-funko {
+  width: 250px;
+  height: 250px;
+  margin-top: 130px;
+  margin-left: 80px;
+}
+
+.conteiner2-header-logo {
+  width: 160px;
+  height: 80px;
+}
+
+@media (max-width: 960px) {
+  .conteiner2-header-logo {
+    width: 170px;
+    height: 85px;
+  }
+}
+
+/* ------------- FIM DO HEADER ------------ */
+
+main {
+  width: 100%;
+  max-width: 1390px;
+  margin: auto;
+}
+
+.conteiner2-main {
+  background-image: url("./Imagens/thor_header.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 650px;
+  margin: auto;
+  box-sizing: border-box;
+  padding-top: 20px;
+}
+
+@media (max-width: 960px) {
+  .conteiner2-main {
+    background-image: none;
+    background-color: #fe7467;
+    width: 100%;
+    height: 700px;
+    flex-direction: column;
+  }
+}
+
+.text-catalogo-main {
+  width: 450px;
+  height: 350px;
+  color: white;
+  font-size: 22px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-left: auto;
+  margin-top: 100px;
+  margin-right: 70px;
+}
+
+@media (max-width: 960px) {
+  .text-catalogo-main {
+    font-size: 24px;
+    width: 500px;
+    text-align: center;
+  }
+}
+
+.title-catalogo-main {
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  height: auto;
+  width: fit-content;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.title-catalogo-main::after {
+  display: block;
+  content: "";
+  width: 150px;
+  height: 5px;
+  background-color: white;
+  margin-top: 15px;
+  margin-left: 40px;
+}
+
+.title2-catalogo-main::after {
+  display: block;
+  content: "";
+  background-color: #fe7467;
+  width: 100px;
+  height: 5px;
+  margin-left: 42px;
+  margin-top: 15px;
+}
+
+.title2-catalogo-main {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-top: 50px;
+}
+
+.text-button {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 960px) {
+  .text-button {
+    align-items: center;
+    gap: 40px;
+    margin-top: 80px;
+  }
+}
+
+.button-catalogo-main {
+  width: 300px;
+  height: 70px;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  border-radius: 25px;
+  background-image: linear-gradient(to bottom, #fe7467, #fc3836);
+  border: none;
+  color: white;
+  margin-right: 280px;
+  margin-top: 10px;
+}
+
+@media (max-width: 960px) {
+  main .button-catalogo-main {
+    margin: auto;
+  }
+}
+
+.bonecos-catalogo-main {
+  width: 40rem;
+  height: auto;
+}
+
+@media (max-width: 960px) {
+  .bonecos-catalogo-main {
+    margin-top: 80px;
+  }
+}
+
+.conteiner3-catalogo-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content-catalogo {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 20px;
+}
+
+@media (max-width: 960px) {
+  .content-catalogo {
+    flex-direction: column-reverse;
+    align-content: center;
+  }
+}
+
+/*.conteiner3-catalogo-main .bonecos-catalogo-main {
+  align-self: flex-start;
+}*/
+
+.text2-catalogo-main {
+  font-size: 22px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  width: 500px;
+}
+
+/*.conteiner3-catalogo-main .text2-catalogo-main {
+  align-self: flex-end;
+}
+
+.conteiner3-catalogo-main .button-catalogo-main {
+  align-self: flex-end;
+}*/

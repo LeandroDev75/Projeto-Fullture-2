@@ -1,0 +1,167 @@
+* {
+  padding: 0px;
+}
+
+header {
+  width: 100%;
+  max-width: 1390px;
+  margin: auto;
+}
+.conteiner1-catalogo-header {
+  background-image: url(./Imagens/captainmarvelheader.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 100px;
+}
+
+@media (max-width: 960px) {
+  .conteiner1-catalogo-header {
+    background-image: url(./Imagens/captainmarvelheader_Mobile.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 900px;
+  }
+}
+
+@media (max-width: 960px) {
+  .img-logo2marvel-header {
+    display: none;
+  }
+}
+
+.img-logo2marvel-header {
+  width: 30%;
+  align-self: center;
+  margin-top: 250px;
+  margin-right: 410px;
+}
+
+.conteiner3-catalogo-itens-header {
+  display: flex;
+  gap: 80px;
+}
+
+.content2-catalogo-itens {
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-decoration: none;
+  font-size: 26px;
+}
+
+.conteiner2-catalogo-header {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 960px) {
+  .conteiner2-catalogo-header {
+    flex-direction: column;
+  }
+}
+
+.imglogo-catalogo-header {
+  margin-top: 40px;
+  margin-left: 30px;
+}
+
+/* -------------- Final Header ---------------*/
+
+/* --------------- Inicio Main --------------*/
+
+main {
+  width: 100%;
+  max-width: 1390px;
+  margin: auto;
+}
+
+.main-conteiner1 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.title-main::after {
+  display: block;
+  content: "";
+  width: 150px;
+  height: 5px;
+  background-color: #fe7467;
+  margin-top: 15px;
+  margin-left: 20px;
+}
+
+.descripton-text {
+  font-weight: bold;
+}
+
+.precos-catalogo {
+  font-style: italic;
+}
+
+.button-purchase {
+  border: none;
+  background-image: linear-gradient(to bottom, #fe7467, #fc3836);
+  color: white;
+  width: 120px;
+  height: 30px;
+  font-weight: bolder;
+  font-size: 16px;
+  border-radius: 25px;
+}
+
+.main-conteiner2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 50px;
+  justify-content: space-around;
+}
+
+/*@media (max-width: 960px) {
+  .main-conteiner1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}*/
+
+.img-goku-catlog,
+.img-charizard-catalog,
+.img-jhonwick-catalog,
+.img-merida-catalog,
+.img-chucky-catalog,
+.img-capitainmarvel-catalog {
+  width: 350px;
+  height: auto;
+}
+
+/*@media (max-width: 960px) {
+  .img-goku-catlog,
+  .img-charizard-catalog,
+  .img-jhonwick-catalog,
+  .img-merida-catalog,
+  .img-chucky-catalog,
+  .img-capitainmarvel-catalog {
+    width: 700px;
+    height: auto;
+  }
+}*/
+
+.conteiner3-main-goku,
+.conteiner4-charizard,
+.conteiner5-jhonwick,
+.conteiner6-merida,
+.conteiner7-chucky,
+.conteiner8-capitainmarvel {
+  height: 500px;
+  width: 350px;
+}
