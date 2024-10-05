@@ -3,16 +3,17 @@ main {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.conteiner2-form-header {
+.conteiner-form {
   background-image: url(./Imagens/contatoheader.jpg);
   background-size: cover;
   background-position: center;
   width: 100%;
   height: auto;
   min-height: 800px;
-  display: flex;  
-  flex-wrap: wrap;
+  /*display: flex;  
+  flex-wrap: wrap;*/
 }
+
 
 .imglogo-form-header {
   /*width: 30%;
@@ -24,38 +25,53 @@ main {
   /*width: 15em;
   height: 7.75em;*/
 
-  width: 240px;
-  height: 124px;
+  width: 200px;
+  height: 110px;
+  margin-top: 30px;
+  margin-left: 40px;
+}
+
+.conteiner-logo-form {
+  display: flex;
+  gap: 80px;
 }
 
 .content2-form-itens {
   flex-direction: column;
   color: white;
-  font-size: 30px;
+  font-size: 20px;
+  font-weight: 600;
   text-decoration: none;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    
 }
 
 .conteiner3-form-itens-header {
   display: flex;
-  gap: 100px;
-}
-
-.img-form-logo2marvel-header {
-  width: 400px;
-  height: 260px;
-}
-
-.conteiner1-form-header {
-  display: flex;
-  flex-direction: column;
+  gap: 80px;
+  margin-top: 60px;
 }
 
 .conteiner4-img-contacttitle-header {
   display: flex;
-  flex-direction: column;
 }
+
+.img-form-logo2marvel-header {
+  width: 380px;
+  height: auto;
+  margin-top: 300px;
+  margin-left: 200px;
+}
+
+/*.conteiner1-form-header {
+  display: flex;
+  flex-direction: column;
+}*/
+
+/*.conteiner4-img-contacttitle-header {
+  
+}*/
 
 .main-title {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
@@ -134,10 +150,17 @@ main {
   
 }
 
+
 .button-form {
-  width: 98%;
+  width: 97%;
   height: 40px;
   border-radius: 15px;
+  border: none;
+  background-image: linear-gradient(to bottom, #fe7467, #fc3836);
+  color: white;
+  font-weight: bolder;
+  font-size: 16px;
+  
 }
 
 .main-description-1 {
