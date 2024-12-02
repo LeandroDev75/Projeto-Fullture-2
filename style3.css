@@ -3,11 +3,17 @@ main {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+header {
+  width: 100%;
+  max-width: 1390px;
+  margin: auto;
+}
+
 .conteiner-form {
   background-image: url(./Imagens/contatoheader.jpg);
   background-size: cover;
   background-position: center;
-  width: 100vw;
+  width: 100%;
   height: auto;
   min-height: 800px;
   /*display: flex;  
@@ -93,14 +99,7 @@ main {
   margin-left: 200px;
 }
 
-/*.conteiner1-form-header {
-  display: flex;
-  flex-direction: column;
-}*/
 
-/*.conteiner4-img-contacttitle-header {
-  
-}*/
 
 .main-title {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
@@ -127,6 +126,13 @@ main {
   margin-top: 50px;
   justify-content: center;
   
+}
+
+@media (max-width: 960px) {
+  .form-contact {
+       flex-direction: column;
+       align-items: center;
+  }
 }
 
 .size-input-form-1 {
@@ -182,20 +188,30 @@ main {
 
 .button-form {
   width: 97%;
-  height: 40px;
+  height: 50px;
   border-radius: 15px;
   border: none;
   background-image: linear-gradient(to bottom, #fe7467, #fc3836);
   color: white;
   font-weight: bolder;
   font-size: 16px;
+  margin-top: 20px;
   
+}
+
+@media (max-width: 960px) {
+  .button-form {
+    width: 43%; 
+    margin-top: 30px;  
+    
+  }
 }
 
 .main-description-1 {
   display: flex;
   justify-content: center;
 }
+
 
 
 

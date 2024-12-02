@@ -44,13 +44,37 @@ header {
   gap: 80px;
 }
 
-.content2-catalogo-itens {
+/*.content2-catalogo-itens {
   color: white;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   text-decoration: none;
   font-size: 26px;
+}*/
+
+/* Estilo geral dos links */
+.content2-catalogo-itens {
+  font-size: 26px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  border-bottom: 2px solid transparent; /* Nenhum traço por padrão */
 }
+
+/* Adiciona o traço quando o link é clicado */
+.content2-catalogo-itens:active, 
+.content2-catalogo-itens:focus {
+  border-bottom: 2px solid #fe7467;
+  width: 1px; /* Ajusta automaticamente */
+}
+
+/* Estilo do link ativo */
+.content2-catalogo-itens.active {
+  border-bottom: 2px solid #fe7467;
+}
+
 
 .conteiner2-catalogo-header {
   display: flex;
@@ -87,6 +111,7 @@ main {
   flex-direction: column;
   align-items: center;
   margin-top: 30px;
+  margin-bottom: 70px;
 }
 
 .title-main::after {
