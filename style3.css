@@ -61,7 +61,7 @@ header {
   }
 }
 
-.content2-form-itens {
+/*.content2-form-itens {
   flex-direction: column;
   color: white;
   font-size: 20px;
@@ -70,11 +70,38 @@ header {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
     
+} */
+
+/* Estilo geral dos links */
+.content2-form-itens {
+  font-size: 26px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  border-bottom: 2px solid transparent; /* Nenhum traço por padrão */
 }
 
-.content2-form-itens.active:active {
+/* Adiciona o traço quando o link é clicado */
+.content2-form-itens:active, 
+.content2-form-itens:focus {
   border-bottom: 2px solid #fe7467;
 }
+
+/* Estilo do link ativo */
+.content2-form-itens.active {
+  border-bottom: 2px solid white;
+}
+/* Estilo do link ativo */
+.content2-form-itens.active {
+  border-bottom: 2px solid #fe7467;
+}
+
+
+/*.content2-form-itens.active:active {
+  border-bottom: 2px solid #fe7467;
+}  */
 
 
 .conteiner3-form-itens-header {
