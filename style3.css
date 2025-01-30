@@ -72,6 +72,11 @@ header {
     
 }
 
+.content2-form-itens.active:active {
+  border-bottom: 2px solid #fe7467;
+}
+
+
 .conteiner3-form-itens-header {
   display: flex;
   gap: 80px;
