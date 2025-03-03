@@ -46,14 +46,7 @@ header {
   }
 }
 
-/*.conteiner2-itens {
-  font-size: 26px;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  color: white;
-  text-decoration: none;
-  margin-left: 20px;
-}*/
+
 
 /* Estilo geral dos links */
 .conteiner2-itens {
@@ -72,10 +65,7 @@ header {
   border-bottom: 2px solid #fe7467;
 }
 
-/* Estilo do link ativo */
-.conteiner2-itens.active {
-  border-bottom: 2px solid white;
-}
+
 /* Estilo do link ativo */
 .conteiner2-itens.active {
   border-bottom: 2px solid #fe7467;
@@ -267,9 +257,7 @@ main {
   }
 }
 
-/*.conteiner3-catalogo-main .bonecos-catalogo-main {
-  align-self: flex-start;
-}*/
+
 
 .text2-catalogo-main {
   font-size: 22px;
@@ -278,10 +266,3 @@ main {
   width: 500px;
 }
 
-/*.conteiner3-catalogo-main .text2-catalogo-main {
-  align-self: flex-end;
-}
-
-.conteiner3-catalogo-main .button-catalogo-main {
-  align-self: flex-end;
-}*/

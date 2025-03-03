@@ -16,21 +16,12 @@ header {
   width: 100%;
   height: auto;
   min-height: 800px;
-  /*display: flex;  
-  flex-wrap: wrap;*/
+  
 }
 
 
 .imglogo-form-header {
-  /*width: 30%;
-  height: 20%;*/
-
-  /*width: 15rem;
-  height: 7.75rem;*/
-
-  /*width: 15em;
-  height: 7.75em;*/
-
+  
   width: 200px;
   height: 110px;
   margin-top: 30px;
@@ -50,7 +41,10 @@ header {
 
 .conteiner-logo-form {
   display: flex;
-  gap: 80px;
+  align-items: center;
+  gap: 50px;
+  padding-top: 40px;
+  padding-left: 20px;
 }
 
 @media (max-width: 960px) {
@@ -61,16 +55,6 @@ header {
   }
 }
 
-/*.content2-form-itens {
-  flex-direction: column;
-  color: white;
-  font-size: 20px;
-  font-weight: 600;
-  text-decoration: none;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-    
-} */
 
 /* Estilo geral dos links */
 .content2-form-itens {
@@ -89,28 +73,11 @@ header {
   border-bottom: 2px solid #fe7467;
 }
 
-/* Estilo do link ativo */
-.content2-form-itens.active {
-  border-bottom: 2px solid white;
-}
+
 /* Estilo do link ativo */
 .content2-form-itens.active {
   border-bottom: 2px solid #fe7467;
 }
-
-
-/*.content2-form-itens.active:active {
-  border-bottom: 2px solid #fe7467;
-}  */
-
-
-.conteiner3-form-itens-header {
-  display: flex;
-  gap: 80px;
-  margin-top: 60px;
-}
-
-
 
 .conteiner4-img-contacttitle-header {
   display: flex;
